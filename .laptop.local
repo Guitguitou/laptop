@@ -1,0 +1,8 @@
+#!/bin/sh
+
+brew bundle --file=- <<EOF
+brew "Caskroom/cask/dockertoolbox"
+brew "go"
+brew "ngrok"
+brew "watch"
+EOF
